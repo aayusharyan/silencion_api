@@ -3,3 +3,7 @@ module.exports.list_all = function (req, res) {
     console.log (arrivals);
     res.send ("ERROR CODE: 200");
 }
+
+module.exports.search function (req, res) {
+    var arrivals = require("../")
+}

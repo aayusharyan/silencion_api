@@ -1,41 +1,41 @@
-{
-    'id': '1',
-    'name': 'Kfc',
-    'offer': 'Rs 100 off on Order of Rs 400 and Above',
-    'tag': 'Food',
-    'expiry': '12th April 2017',
-    'img': "https://brickit.com/images/_site/clients/logo_KFC.png",
-    'promocode': 'KFC100'
+[{
+    "id": "1",
+    "name": "Kfc",
+    "offer": "Rs 100 off on Order of Rs 400 and Above",
+    "tag": "Food",
+    "expiry": "12th April 2017",
+    "img": "https://brickit.com/images/_site/clients/logo_KFC.png",
+    "promocode": "KFC100"
 }, {
-    'id': '2',
-    'name': 'Dominos',
-    'offer': 'One Pizza Free on One Large Pizza',
-    'tag': 'Food',
-    'expiry': '10th April 2017',
-    'img': "http://actsfundraising.com/wp-content/uploads/2015/04/dominos1-300x270.png",
-    'promocode': 'DOMI100'
+    "id": "2",
+    "name": "Dominos",
+    "offer": "One Pizza Free on One Large Pizza",
+    "tag": "Food",
+    "expiry": "10th April 2017",
+    "img": "http://actsfundraising.com/wp-content/uploads/2015/04/dominos1-300x270.png",
+    "promocode": "DOMI100"
 }, {
-    'id': '3',
-    'name': 'Croma Store',
-    'offer': 'MacBook Pro at Rs 93000/-',
-    'tag': 'Shopping',
-    'expiry': '31st April 2017',
-    'img': "http://www.yesvideo.net.in/images/cromaelectronicmegastore_large.jpg",
-    'promocode': 'MacBook10'
+    "id": "3",
+    "name": "Croma Store",
+    "offer": "MacBook Pro at Rs 93000/-",
+    "tag": "Shopping",
+    "expiry": "31st April 2017",
+    "img": "http://www.yesvideo.net.in/images/cromaelectronicmegastore_large.jpg",
+    "promocode": "MacBook10"
 }, {
-    'id': '4',
-    'name': 'Burger King',
-    'offer': 'Use HDFC Card to get 10% extra off',
-    'tag': 'Food',
-    'expiry': '22nd June 2017',
-    'img': "http://www.namedevelopment.com/blog/archives/BurgerKingLogo.png",
-    'promocode': 'HAPPY10'
+    "id": "4",
+    "name": "Burger King",
+    "offer": "Use HDFC Card to get 10% extra off",
+    "tag": "Food",
+    "expiry": "22nd June 2017",
+    "img": "http://www.namedevelopment.com/blog/archives/BurgerKingLogo.png",
+    "promocode": "HAPPY10"
 }, {
-    'id': '4',
-    'name': 'Zara',
-    'offer': 'Buy from  ZARA over Rs 1000 to get 10% extra off',
-    'tag': 'Shopping',
-    'expiry': '01st May 2017',
-    'img': "http://is4.mzstatic.com/image/thumb/Purple71/v4/c6/61/48/c661481d-9160-3f57-da40-2efd54191a8d/source/175x175-75.png",
-    'promocode': 'ZaraTimes'
-}
+    "id": "4",
+    "name": "Zara",
+    "offer": "Buy from  ZARA over Rs 1000 to get 10% extra off",
+    "tag": "Shopping",
+    "expiry": "01st May 2017",
+    "img": "http://is4.mzstatic.com/image/thumb/Purple71/v4/c6/61/48/c661481d-9160-3f57-da40-2efd54191a8d/source/175x175-75.png",
+    "promocode": "ZaraTimes"
+}]

@@ -3,6 +3,7 @@ var appRouter = function (app) {
     app.get("/", require("../models/landing_page").main);
     app.get("/arrivals/", require("../models/arrivals").list_all);
     app.get("/departures/", require("../models/departures").list_all);
+    app.get("/offers/", require("../models/offers").list_all);
 
     /*
      ** Making this one Model as an Variable because it is used at many Places, and requiring it multiple times can increase load
