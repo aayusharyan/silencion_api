@@ -1,0 +1,17 @@
+[{
+    "pnr": "i7jv3",
+    "flight_id": "1",
+    "direction": "departures"
+}, {
+    "pnr": "i7jivv",
+    "flight_id": "2",
+    "direction": "departures"
+}, {
+    "pnr": "i7jivz",
+    "flight_id": "6E251",
+    "direction": "departures"
+}, {
+    "pnr": "i7jivz",
+    "flight_id": "SE251",
+    "direction": "departures"
+}]
