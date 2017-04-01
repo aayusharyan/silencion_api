@@ -1,26 +1,27 @@
 module.exports.list_all = function (req, res) {
     var arrivals = require("../offers.json");
-    console.log(arrivals);
-    res.send("STATUS CODE: 200");
+    res.send(JSON.stringify (arrivals));
 }
 
 module.exports.search = function (req, res) {
-    var lodash = require ("lodash");
+    var lodash = require("lodash");
     var offers = require("../offers.json");
-    console.log (offers);
     var search_query = req.params.search_query;
     console.log(search_query);
     console.log("Custom Search");
-    var search_query_regex = /+search_query+/i;
-    var search_regx = search_query_regex.exec ()
-    console.log (search_query);
-
-    var picked = lodash.filter(offers, {
-        'name': (search_query_regex).toString ()
-    });
-
-    console.log(picked);
     
-
-    res.send("STATUS CODE: 200");
+    var return_obj = [];
+    
+    console.log (offers);
+    
+    for (var index in offers) {
+        var single_offer = offers[index];
+        console.log (single_offer);
+        console.log ("NEXT");
+        if (((single_offer.name.toLowerCase().indexOf(search_query.toLowerCase())) > -1) || ((single_offer.tag.toLowerCase().indexOf(search_query.toLowerCase())) > -1)) {
+            return_obj.push (single_offer);
+        }
+    }
+    
+    res.send (JSON.stringify(return_obj));
 }
