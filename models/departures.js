@@ -36,5 +36,5 @@ module.exports.search =  function (req, res) {
     result_object.eta = single_flight_details_obj.eta;
     result_object.delay = single_flight_details_obj.delay;
     result_object.comments = single_flight_details_obj.comments;
-    res.send (JOSN.stringify (result_object));
+    res.send (JSON.stringify (result_object));
 }
