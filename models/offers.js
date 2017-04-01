@@ -11,11 +11,12 @@ module.exports.search = function (req, res) {
     var search_query = req.params.search_query;
     console.log(search_query);
     console.log("Custom Search");
-    var search_query_regex = "/"+search_query+"/i";
+    var search_query_regex = /+search_query+/i;
+    var search_regx = search_query_regex.exec ()
     console.log (search_query);
 
     var picked = lodash.filter(offers, {
-        'name': ("/"+search_query+"/i").toString ()
+        'name': (search_query_regex).toString ()
     });
 
     console.log(picked);
