@@ -8,6 +8,7 @@
     "company": "Indigo",
     "logo": "http://downloads.andyroid.net/website/v2//wp-content/uploads/2015/07/SpiceJet-icon.png",
     "delay": "20",
+    "belt": "6A",
     "comments": ""
 }, {
     "id": "2",
@@ -19,6 +20,7 @@
     "gate": "D1",
     "eta": "1600",
     "delay": "",
+    "belt": "12",
     "comments": ""
 }, {
     "id": "3",
@@ -30,6 +32,7 @@
     "logo": "http://2.bp.blogspot.com/-mnOq2LOqQfI/VpmfAnagvCI/AAAAAAAAGD0/VmhLSrAsf7o/s1600/Logo%2BAirAsia%2B%2528small%2529.png",
     "eta": "0200",
     "delay": "20",
+    "belt": "3",
     "comments": ""
 }, {
     "id": "4",
@@ -41,6 +44,7 @@
     "logo": "http://logok.org/wp-content/uploads/2014/06/Lufthansa-Logo-Empennage.png",
     "eta": "0010",
     "delay": "",
+    "belt": "6",
     "comments": ""
 }, {
     "id": "5",
@@ -63,6 +67,7 @@
     "company": "Indigo",
     "logo": "http://moments.aircanada.com/themes/75th/images/air-canada-logo.png",
     "delay": "20",
+    "belt": "",
     "comments": ""
 }, {
     "id": "7",
@@ -74,6 +79,7 @@
     "gate": "D1",
     "eta": "1600",
     "delay": "",
+    "belt": "4",
     "comments": ""
 }, {
     "id": "8",
@@ -86,5 +92,6 @@
     "pnr": "i7jivz",
     "eta": "0200",
     "delay": "120",
+    "belt": "4A",
     "comments": "Passengers are getting complimentary food at Food Court"
 }]
