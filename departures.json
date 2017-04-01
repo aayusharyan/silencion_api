@@ -4,7 +4,6 @@
     "destination": "BOM",
     "flightNo": "SU254",
     "gate": "22A",
-    "pnr": "i7jv3",
     "seat": "1A",
     "company": "Spicejet",
     "logo": "http://downloads.andyroid.net/website/v2//wp-content/uploads/2015/07/SpiceJet-icon.png",
@@ -19,7 +18,6 @@
     "company": "GoAir",
     "logo": "https://upload.wikimedia.org/wikipedia/en/8/86/GoAir_Logo.png",
     "flightNo": "SE254",
-    "pnr": "i7jivv",
     "gate": "2A",
     "eta": "1600",
     "delay": "",
@@ -33,7 +31,6 @@
     "company": "Air Asia",
     "logo": "http://2.bp.blogspot.com/-mnOq2LOqQfI/VpmfAnagvCI/AAAAAAAAGD0/VmhLSrAsf7o/s1600/Logo%2BAirAsia%2B%2528small%2529.png",
     "gate": "221B",
-    "pnr": "i7jivz",
     "eta": "0200",
     "delay": "120",
     "comments": "Flight is Late"
@@ -46,7 +43,6 @@
     "company": "Etihad Airways",
     "logo": "http://1.bp.blogspot.com/-SANQ_9HfgmE/UmsvDphB_oI/AAAAAAAAAAA/DaPrHAmPsoI/s1600/Etihad_Airways_logo.png",
     "gate": "221B",
-    "pnr": "i7jivz",
     "eta": "0200",
     "delay": "120",
     "comments": ""
