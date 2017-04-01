@@ -18,8 +18,8 @@ module.exports.search = function (req, res) {
         'name': ("/"+search_query+"/i").toString ()
     });
 
-
     console.log(picked);
+    
 
     res.send("STATUS CODE: 200");
 }

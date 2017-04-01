@@ -9,6 +9,6 @@ module.exports.search =  function (req, res) {
     var arrivals = require("../arrivals.json");
     var pnr = req.params.pnr;
     var picked = lodash.filter(arrivals, { 'pnr': pnr } );
-    console.log (picked);
+    console.log (picked.id==1);
     res.send ("STATUS CODE: 200");
 }
