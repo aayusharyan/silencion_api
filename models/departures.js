@@ -11,7 +11,7 @@ module.exports.search = function (req, res) {
     var picked = lodash.filter(pnr_list, {
         'pnr': search_query
     });
-    if (picked.length == 1) && (typeof (picked[0].flight_id) !== 'undefined') {
+    if ((picked.length == 1) && (typeof (picked[0].flight_id) !== 'undefined')) {
         var flight_id = picked[0].flight_id;
         var flight_details = lodash.filter(departures, {
             'id': flight_id
