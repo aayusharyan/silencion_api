@@ -22,5 +22,4 @@ module.exports.search = function (req, res) {
 
 module.exports.add_new = function (req, res) {
     var offers = require("../offers.json");
-    var 
 }

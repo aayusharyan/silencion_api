@@ -86,15 +86,15 @@ module.exports.search = function (req, res) {
 }
 
 
-exports.modules.add_new = function (req, res) {
+module.exports.add_new = function (req, res) {
     var data = req.body;
     var departures = require("../departures.json");
-    var count_of_items = departures.length();
+    var count_of_items = departures.length;
     var new_departure_listing = {};
     new_departure_listing.id = ++count_of_items;
     new_departure_listing.source = data.source;
     new_departure_listing.destination = data.destination;
-    new_departure_listing.company = company;
+    new_departure_listing.company = data.company;
     new_departure_listing.logo = data.logo;
     new_departure_listing.gate = data.gate;
     new_departure_listing.eta = data.eta;
@@ -108,5 +108,5 @@ exports.modules.add_new = function (req, res) {
     jsonfile.writeFile('departures.json', departures, function (err) {
         if (err) return console.log(err);
     });
-    
+    res.sendStatus (200);
 }
