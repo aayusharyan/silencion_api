@@ -19,3 +19,8 @@ module.exports.search = function (req, res) {
     
     res.send (JSON.stringify(return_obj));
 }
+
+module.exports.add_new = function (req, res) {
+    var offers = require("../offers.json");
+    var 
+}
